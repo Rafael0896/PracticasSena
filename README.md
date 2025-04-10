@@ -1,73 +1,25 @@
-🚀 Mi Primer Proyecto Git & GitHub 🚀
-📝 Descripción
-¡Bienvenido a mi primer proyecto de control de versiones usando Git y GitHub! Este repositorio es donde aprendo y practico las habilidades esenciales de versionamiento de código.
-🛠️ Comandos Básicos de Git
-Configuración Inicial
-bash# Configurar nombre de usuario
-git config --global user.name "Tu Nombre"
+# 🚀 Mi Primer Proyecto con Git y GitHub  
 
-# Configurar email
-git config --global user.email "tu@email.com"
-Primeros Pasos
-bash# Inicializar un repositorio nuevo
-git init
+¡Bienvenido/a a mi primer repositorio! 👋 Aquí estoy aprendiendo a usar **Git** y **GitHub** para controlar versiones de mi código. 💻✨  
 
-# Clonar un repositorio existente
-git clone https://github.com/usuario/repositorio.git
-Trabajo Diario
-bash# Ver estado de archivos
-git status
+## 📌 Comandos Básicos de Git  
 
-# Añadir archivos al área de preparación
-git add archivo.txt    # Añadir archivo específico
-git add .              # Añadir todos los archivos
+| Comando               | Descripción                                      | Emoji |
+|-----------------------|--------------------------------------------------|-------|
+| `git init`            | Inicializa un repositorio Git.                   | 🏁️   |
+| `git clone <url>`     | Clona un repositorio remoto.                     | 📥    |
+| `git status`          | Muestra el estado de los archivos.               | 🔍    |
+| `git add <archivo>`   | Añade cambios al **staging area**.               | ➕    |
+| `git commit -m "msg"` | Guarda cambios con un mensaje.                   | 💾    |
+| `git push`            | Sube commits al repositorio remoto.              | ⬆️    |
+| `git pull`            | Descarga cambios del repositorio remoto.         | ⬇️    |
+| `git branch`          | Lista todas las ramas.                           | 🌿    |
+| `git checkout <rama>` | Cambia a otra rama.                              | 🔀    |
+| `git merge <rama>`    | Fusiona una rama con la actual.                  | 🔄    |
 
-# Crear un commit con mensaje
-git commit -m "Descripción del cambio"
+## 🌟 Ejemplo de Flujo Básico  
 
-# Ver historial de commits
-git log
-Trabajando con Ramas
-bash# Crear una nueva rama
-git branch nueva-rama
-
-# Cambiar a otra rama
-git checkout nueva-rama
-# o la forma moderna
-git switch nueva-rama
-
-# Crear y cambiar a una nueva rama
-git checkout -b otra-rama
-Trabajando con Repositorios Remotos
-bash# Conectar a repositorio remoto
-git remote add origin https://github.com/tu-usuario/tu-repositorio.git
-
-# Subir cambios al repositorio remoto
-git push origin rama
-
-# Traer cambios del repositorio remoto
-git pull origin rama
-🌟 Flujo Básico de Trabajo
-
-📥 Clona el repositorio o inicializa uno nuevo
-🔄 Crea una rama para trabajar
-✏️ Realiza cambios en los archivos
-📤 Añade los cambios (git add)
-💾 Crea un commit (git commit)
-🚀 Sube los cambios (git push)
-
-🎯 Objetivos
-
-Aprender los fundamentos de Git
-Colaborar con otros desarrolladores
-Mantener un historial limpio de cambios
-Dominar el flujo de trabajo de GitHub
-
-📚 Recursos Útiles
-
-Documentación oficial de Git
-Guía de GitHub
-Aprende Git Branching
-
-
-⭐ ¡No olvides dar una estrella si encuentras útil este repositorio! ⭐
+```bash
+git add .
+git commit -m "✨ Primer commit: Iniciando proyecto"
+git push origin main
